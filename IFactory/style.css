@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+}
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 550px;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #1f1627;
+}
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7 {
+  border-radius: 0px !important;
+  background-color: #f1e8df;
+  transform: skewY(-5deg);
+  margin-top: -70px;
+}
+.page3 {
+  background-color: #1f1627;
+}
+.page4 {
+  background-color: #eac3c8;
+}
+.page5 {
+  background-color: #f2a3b6;
+}
+.page6 {
+  background-color: #b8c1c7;
+}
+.page7 {
+  background-color: #422a46;
+}
+.page8 {
+  background-color: #f8c4cc;
+}
+.page9 {
+  background-color: #ffe6d0;
+}
+.page1 .first {
+  border: 3px dotted white;
+  border-bottom: none;
+  position: absolute;
+  margin: 50px;
+  width: 91%;
+  height: 500px;
+  border-radius: 50px 50px 0px 0px;
+}
+.page2 .second,
+.page3 .third,
+.page4 .fourth,
+.page5 .fifth,
+.page6 .sixth,
+.page7 .seven {
+  border: 3px dotted white;
+  border-top: none;
+  border-bottom: none;
+  position: absolute;
+  margin: 50px;
+  margin-top: -50px;
+  padding-top: 150px;
+  width: 91%;
+  height: 500px;
+  border-radius: 0px;
+  transform: skewY(5deg);
+}
+
+.h6 {
+  font-size: 35px;
+}
+
+.content {
+  /* font-family: "Cedarville Cursive", cursive; */
+  font-family: "Recursive", sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+}
+.sub-content {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 100px;
+  color: white;
+  text-align: center;
+}
+
+.second .content,
+.second .sub-content {
+  color: black !important;
+  text-align: center;
+}
+
+.sub-heading {
+  padding: 10px;
+  font-size: 30px;
+  width: 50%;
+  margin: 0% 25%;
+  text-align: left;
+}
+.sub-heading p {
+  font-size: 20px;
+  text-align: justify;
+}
+.third .sub-content,
+.fifth .sub-content,
+.seven .sub-content {
+  width: 40%;
+  margin: 0% 20% 0% 40%;
+  font-size: 20px;
+  font-weight: normal !important;
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 0px;
+  font-family: "Recursive", sans-serif;
+}
+.fourth .sub-content,
+.sixth .sub-content {
+  width: 40%;
+  margin: 0% 40% 0% 20%;
+  font-size: 20px;
+  font-weight: normal !important;
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 0px;
+  font-family: "Recursive", sans-serif;
+}
+
+.seven .content,
+.seven .sub-heading {
+  color: white !important;
+  text-align: center;
+}
+.seven .sub-heading p {
+  font-size: 20px;
+  text-align: justify;
+}
